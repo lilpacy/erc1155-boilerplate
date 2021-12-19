@@ -25,8 +25,14 @@ task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
 const config: HardhatUserConfig = {
   solidity: "0.8.4",
   networks: {
+    mainnet: {
+      url: process.env.MAINNET_URL || "",
+    },
     ropsten: {
       url: process.env.ROPSTEN_URL || "",
+    },
+    matic: {
+      url: process.env.MATIC_URL || "",
     },
     mumbai: {
       url: process.env.MUMBAI_URL || "",
