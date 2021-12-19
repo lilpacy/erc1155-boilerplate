@@ -26,10 +26,10 @@ yarn run ipfs:open
 
 Polygonscan
 
-[https://mumbai.polygonscan.com/address/0xd7bae04ede23e21f6ab3a6b7f8b10c3117440171](https://mumbai.polygonscan.com/address/0xd7bae04ede23e21f6ab3a6b7f8b10c3117440171)
+[https://mumbai.polygonscan.com/address/0xe2bca3f8784ba89749d812ce38f275871c1d55ad](https://mumbai.polygonscan.com/address/0xe2bca3f8784ba89749d812ce38f275871c1d55ad)
 
 Opensea
 
-![](https://gyazo.com/8aeb37fbf78a4e10765f31d8ca3d9e56.png)
+![](https://gyazo.com/56f5521e038626e177c8bc9006637fba.png)
 
-[https://testnets.opensea.io/assets/mumbai/0xd7bae04ede23e21f6ab3a6b7f8b10c3117440171/1](https://testnets.opensea.io/assets/mumbai/0xd7bae04ede23e21f6ab3a6b7f8b10c3117440171/1)
+[https://testnets.opensea.io/assets/mumbai/0xe2bca3f8784ba89749d812ce38f275871c1d55ad/1](https://testnets.opensea.io/assets/mumbai/0xe2bca3f8784ba89749d812ce38f275871c1d55ad/1)

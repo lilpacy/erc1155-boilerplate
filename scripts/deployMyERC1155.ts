@@ -17,7 +17,12 @@ async function main() {
   // We get the contract to deploy
   const signer = kmsSigner()
   const MyERC1155 = await ethers.getContractFactory("MyERC1155");
-  const myERC1155 = await MyERC1155.connect(signer).deploy("ipfs://QmdhcMjEELiEX1PqcUwAi4sQSJV6DExw27vRgfeN6hZasA");
+  const myERC1155 =
+    await MyERC1155.connect(signer).deploy(
+      "ipfs://QmdhcMjEELiEX1PqcUwAi4sQSJV6DExw27vRgfeN6hZasA",
+      "MyERC1155",
+      "NFT"
+    );
 
   await myERC1155.deployed();
 

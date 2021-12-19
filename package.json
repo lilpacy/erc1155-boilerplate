@@ -9,7 +9,7 @@
     "ipfs:cat": "ipfs cat /ipfs/QmdhcMjEELiEX1PqcUwAi4sQSJV6DExw27vRgfeN6hZasA",
     "ipfs:open": "open https://ipfs.io/ipfs/QmdhcMjEELiEX1PqcUwAi4sQSJV6DExw27vRgfeN6hZasA",
     "deploy:mumbai": "npx hardhat run scripts/deployMyERC1155.ts --network mumbai",
-    "verify:mumbai": "npx hardhat verify --contract contracts/MyERC1155.sol:MyERC1155 0xD7Bae04EDe23E21F6aB3A6B7F8b10c3117440171 'ipfs://QmdhcMjEELiEX1PqcUwAi4sQSJV6DExw27vRgfeN6hZasA' --network mumbai"
+    "verify:mumbai": "npx hardhat verify --contract contracts/MyERC1155.sol:MyERC1155 0xE2BcA3f8784Ba89749d812ce38f275871c1d55AD 'ipfs://QmdhcMjEELiEX1PqcUwAi4sQSJV6DExw27vRgfeN6hZasA' 'MyERC1155' 'NFT' --network mumbai"
   },
   "keywords": [],
   "author": "",

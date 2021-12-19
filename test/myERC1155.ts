@@ -14,7 +14,7 @@ describe("MyERC1155", function () {
     addr1 = signers[1]
     addr2 = signers[2]
     const MyERC1155 = await ethers.getContractFactory("MyERC1155");
-    myERC1155 = await MyERC1155.deploy("dummy");
+    myERC1155 = await MyERC1155.deploy("dummy", "dummy", "dummy");
     await myERC1155.deployed();
   });
 
