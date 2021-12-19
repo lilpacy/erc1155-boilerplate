@@ -9,7 +9,7 @@ yarn install # or npm install
 
 Greeter example
 ```shell
-hardhat run scripts/deployCreeter.ts --network mumbai
+hardhat run scripts/deployGreeter.ts --network mumbai
 hardhat verify --contract contracts/Greeter.sol:Greeter 0xE03d9BbcE6B90C489ED009011f7338b1A3748aB7 "Hello, Hardhat" --network mumbai
 ```
 
