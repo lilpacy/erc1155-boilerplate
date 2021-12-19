@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "aws-kms-ethers-signer": "^0.0.3",
+    "aws-kms-provider": "^0.4.3",
     "hardhat": "^2.8.0"
   },
   "devDependencies": {
