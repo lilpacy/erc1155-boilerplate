@@ -1,0 +1,6 @@
+layout node
+export NODE_OPTIONS=--openssl-legacy-provider
+export ETHERSCAN_API_KEY=
+export MUMBAI_URL=https://rpc-mumbai.maticvigil.com/
+export AWS_REGION=
+export KMS_KEY_ID=
