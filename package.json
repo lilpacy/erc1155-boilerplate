@@ -4,12 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ipfs:add": "ipfs add metadata/mymetadata.json",
+    "ipfs:cat": "ipfs cat /ipfs/QmdhcMjEELiEX1PqcUwAi4sQSJV6DExw27vRgfeN6hZasA",
+    "ipfs:open": "open https://ipfs.io/ipfs/QmdhcMjEELiEX1PqcUwAi4sQSJV6DExw27vRgfeN6hZasA",
+    "deploy:mumbai": "npx hardhat run scripts/deployMyERC1155.ts --network mumbai",
+    "verify:mumbai": "npx hardhat verify --contract contracts/MyERC1155.sol:MyERC1155 0xD7Bae04EDe23E21F6aB3A6B7F8b10c3117440171 'ipfs://QmdhcMjEELiEX1PqcUwAi4sQSJV6DExw27vRgfeN6hZasA' --network mumbai"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@openzeppelin/contracts": "^4.4.1",
     "aws-kms-ethers-signer": "^0.0.3",
     "aws-kms-provider": "^0.4.3",
     "hardhat": "^2.8.0"
